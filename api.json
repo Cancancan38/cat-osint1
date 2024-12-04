@@ -15,6 +15,18 @@
         }
     },
     {
+        "desc": "中国铁路注册验证",
+        "url": "https://cg.95306.cn/proxy/portal/enterprise/authentication/mobilePhoneAuthentication",
+        "method": "GET",
+        "header": {
+            "Content-Type": "application/json;charset=utf-8",
+            "Accept": "application/json, text/javascript, */*; q=0.01"
+        },
+        "params": {
+            "mobilePhone": "[phone]"
+        }
+    },
+    {
         "desc": "卡饭信息安全",
         "url": "https://pdf.kfsafe.cn/sms/phone/code",
         "method": "POST",
